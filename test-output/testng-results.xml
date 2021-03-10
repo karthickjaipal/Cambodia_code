@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Started !!!!]]>
+    </line>
+    <line>
+      <![CDATA[Starting Smart Life level 1 Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Entering the msisdn]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the product to confirm]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Ended !!!!]]>
+    </line>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Started !!!!]]>
+    </line>
+    <line>
+      <![CDATA[Starting Smart Life level 2 Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Entering the msisdn]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the product to confirm]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Ended !!!!]]>
+    </line>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Started !!!!]]>
+    </line>
+    <line>
+      <![CDATA[Starting Smart hospital level 1 Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Entering the msisdn]]>
+    </line>
+    <line>
+      <![CDATA[Selecting the product to confirm]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Test case Execution Ended !!!!]]>
+    </line>
+    <line>
+      <![CDATA[#############################################################]]>
+    </line>
+  </reporter-output>
+  <suite name="MIP_KH" duration-ms="313501" started-at="2020-01-03T12:34:35Z" finished-at="2020-01-03T12:39:49Z">
+    <groups>
+    </groups>
+    <test name="DashboardTestExecution" duration-ms="313501" started-at="2020-01-03T12:34:35Z" finished-at="2020-01-03T12:39:49Z">
+      <class name="com.thbs.qa.testcases.ConfirmCustomerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="setUp" is-config="true" duration-ms="37578" started-at="2020-01-03T18:04:35Z" finished-at="2020-01-03T18:05:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+            <line>
+              <![CDATA[Test case Execution Started !!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="confirmCustomer_TC_001()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="confirmCustomer_TC_001" duration-ms="3536" started-at="2020-01-03T18:05:13Z" finished-at="2020-01-03T18:05:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Smart Life level 1 Confirmation]]>
+            </line>
+            <line>
+              <![CDATA[Entering the msisdn]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the product to confirm]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on confirmation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmCustomer_TC_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="tearDown" is-config="true" duration-ms="899" started-at="2020-01-03T18:05:16Z" finished-at="2020-01-03T18:05:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Execution Ended !!!!]]>
+            </line>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="setUp" is-config="true" duration-ms="35244" started-at="2020-01-03T18:05:17Z" finished-at="2020-01-03T18:05:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+            <line>
+              <![CDATA[Test case Execution Started !!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="confirmCustomer_TC_002()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="confirmCustomer_TC_002" duration-ms="200372" started-at="2020-01-03T18:05:52Z" finished-at="2020-01-03T18:09:13Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='offerCoverId' and @value='3']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='offerCoverId' and @value='3']' (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.thbs.qa.pageobjects.ConfirmCustomerPageObject.enterOfferCoverId(ConfirmCustomerPageObject.java:69)
+	at com.thbs.qa.testcases.ConfirmCustomerPageTest.confirmCustomer_TC_002(ConfirmCustomerPageTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='offerCoverId' and @value='3']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'THBSLAPTOP-452', ip: '10.137.224.134', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\KARTHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56599}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d412e71b4684c9a6702f5240918c90f
+*** Element info: {Using=xpath, value=//input[@id='offerCoverId' and @value='3']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Smart Life level 2 Confirmation]]>
+            </line>
+            <line>
+              <![CDATA[Entering the msisdn]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the product to confirm]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmCustomer_TC_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="tearDown" is-config="true" duration-ms="908" started-at="2020-01-03T18:09:13Z" finished-at="2020-01-03T18:09:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Execution Ended !!!!]]>
+            </line>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="setUp" is-config="true" duration-ms="31971" started-at="2020-01-03T18:09:14Z" finished-at="2020-01-03T18:09:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+            <line>
+              <![CDATA[Test case Execution Started !!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="confirmCustomer_TC_003()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="confirmCustomer_TC_003" duration-ms="2069" started-at="2020-01-03T18:09:46Z" finished-at="2020-01-03T18:09:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Smart hospital level 1 Confirmation]]>
+            </line>
+            <line>
+              <![CDATA[Entering the msisdn]]>
+            </line>
+            <line>
+              <![CDATA[Selecting the product to confirm]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on confirmation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmCustomer_TC_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.thbs.qa.testcases.ConfirmCustomerPageTest@51565ec2]" name="tearDown" is-config="true" duration-ms="892" started-at="2020-01-03T18:09:48Z" finished-at="2020-01-03T18:09:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case Execution Ended !!!!]]>
+            </line>
+            <line>
+              <![CDATA[#############################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.thbs.qa.testcases.ConfirmCustomerPageTest -->
+    </test> <!-- DashboardTestExecution -->
+  </suite> <!-- MIP_KH -->
+</testng-results>

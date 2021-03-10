@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MIP_KH">
+  <test name="DashboardTestExecution">
+    <classes>
+     <!--  <class name="com.thbs.qa.testcases.RegistrationPageTest"/>  -->
+      <class name="com.thbs.qa.testcases.ConfirmCustomerPageTest"/>
+      <!--  <class name="com.thbs.qa.testcases.LoginPageTest"/>  -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,9 @@
+registerCustomer_TC_001 : SmartLife(1+1) 1st level Registration
+registerCustomer_TC_002 : SmartLife(1+0) 1st level Registration
+registerCustomer_TC_003 : SmartLife(1+1) 2nd level Registration
+registerCustomer_TC_004 : SmartLife(1+0) 2nd level Registration
+registerCustomer_TC_005 : SmartHospital Registration
+
+confirmCustomer_TC_001 : Smart Life 1st level confirmation
+confirmCustomer_TC_002 : Smart Life 2nd level confirmation
+confirmCustomer_TC_003 : Smart Hospital confirmation

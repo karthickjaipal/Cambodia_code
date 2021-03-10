@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MIP_KH]">
+  <test name="DashboardTestExecution(failed)">
+    <classes>
+      <class name="com.thbs.qa.testcases.ConfirmCustomerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="confirmCustomer_TC_002"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.thbs.qa.testcases.ConfirmCustomerPageTest -->
+    </classes>
+  </test> <!-- DashboardTestExecution(failed) -->
+</suite> <!-- Failed suite [MIP_KH] -->
